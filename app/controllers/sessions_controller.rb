@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
     authenticated = user.try(:authenticate, params[:password])
     return head(:forbidden) unless authenticated
     @user = user
-    session[:user_id] = @user.id
+    @session[:user_id] = @user.id
     render root_path
   end
 
