@@ -10,8 +10,7 @@ class SessionsController < ApplicationController
     return head(:forbidden) unless authenticated
     @user = user
     session[:user_id] = @user.id
-    binding.pry
-    render 
+    render root_route
   end
 
 
