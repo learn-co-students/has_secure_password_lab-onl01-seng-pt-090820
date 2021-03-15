@@ -1,0 +1,46 @@
+
+app/models/user.rb,41
+class User < ActiveRecord::BaseUser1,0
+
+app/controllers/application_controller.rb,195
+class ApplicationController < ActionController::BaseApplicationController1,0
+  def current_usercurrent_user7,0
+  def logged_in?logged_in?11,0
+  def require_logged_inrequire_logged_in15,0
+
+app/controllers/sessions_controller.rb,141
+class SessionsController < ApplicationControllerSessionsController1,0
+  def newnew2,0
+  def createcreate5,0
+  def destroydestroy19,0
+
+app/controllers/welcome_controller.rb,90
+class WelcomeController < ApplicationControllerWelcomeController1,0
+  def homehome4,0
+
+app/controllers/user_controller.rb,141
+class UserController < ApplicationControllerUserController1,0
+  def newnew2,0
+  def createcreate5,0
+  def user_paramsuser_params14,0
+
+app/helpers/welcome_helper.rb,39
+module WelcomeHelperWelcomeHelper1,0
+
+app/helpers/sessions_helper.rb,41
+module SessionsHelperSessionsHelper1,0
+
+app/helpers/user_helper.rb,33
+module UserHelperUserHelper1,0
+
+app/helpers/application_helper.rb,47
+module ApplicationHelperApplicationHelper1,0
+
+config/application.rb,191
+module HasSecurePasswordLabHasSecurePasswordLab9,0
+  class Application < Rails::ApplicationApplication10,0
+  class Application < Rails::ApplicationHasSecurePasswordLab::Application10,0
+
+db/migrate/20210315230352_create_users.rb,89
+class CreateUsers < ActiveRecord::Migration[5.0]CreateUsers1,0
+  def changechange2,0
